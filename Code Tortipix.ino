@@ -13,13 +13,13 @@
   LiquidCrystal_I2C lcd(LCD_ADDR, LCD_COLUMNS, LCD_ROWS);
 
   //On définit les broches des quatres servomoteurs
-  const int servoPin1 = 11;
+  const int servoPin1 = 11; //Arrière droit
   Servo servo1; 
-  const int servoPin2 = 10;
+  const int servoPin2 = 10; //Arrière gauche
   Servo servo2; 
-  const int servoPin3 = 6; 
+  const int servoPin3 = 6; //Avant droit
   Servo servo3;
-  const int servoPin4 = 5; 
+  const int servoPin4 = 5; //Avant gauche
   Servo servo4; 
 
   //On instancie la borche du capteur de poids et le seuil
