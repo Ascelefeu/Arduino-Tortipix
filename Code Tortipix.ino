@@ -15,9 +15,9 @@
   //On définit les broches des quatres servomoteurs
   const int servoPin1 = 11; //Arrière droit
   Servo servo1; 
-  const int servoPin2 = 10; //Arrière gauche
+  const int servoPin2 = 6; //Arrière gauche
   Servo servo2; 
-  const int servoPin3 = 6; //Avant droit
+  const int servoPin3 = 10; //Avant droit
   Servo servo3;
   const int servoPin4 = 5; //Avant gauche
   Servo servo4; 
